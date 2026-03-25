@@ -79,3 +79,5 @@ Why larger workloads benefit more from data-parallel execution
 ## Notes
 
 The OpenCL portion of this project was developed from course lab work and then further refined by improving code organization, usability, and documentation for clearer reproducibility and presentation.
+
+
