@@ -56,13 +56,17 @@ Compile from the repository root:
 g++ -o matrixMul src/matrixMul.c
 g++ -o deviceQuery src/deviceQuery.c -lOpenCL
 g++ -o matrixmul_host src/matrixmul_host.c -lOpenCL
+```
 
 ## Run
 
 Examples:
+
+```bash
 ./matrixMul 1024
 ./deviceQuery
 ./matrixmul_host 1024
+```
 
 If no size argument is provided, the matrix multiplication programs use a default square matrix size.
 
